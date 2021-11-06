@@ -1,7 +1,7 @@
 ---
 - name: Ensure erlang is installed.
   package:
-    name: erlang
+    name: erlang-base
     state: present
 
 # Setup/install tasks.
